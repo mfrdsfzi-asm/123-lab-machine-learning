@@ -7,7 +7,10 @@ A containerized machine learning development environment using Python 3.12, UV p
 ### Using Dev Container (Recommended)
 
 1. **Open in VS Code**: Make sure you have the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed
+
 2. **Reopen in Container**: VS Code will prompt you to reopen in container, or use `Ctrl+Shift+P` → "Dev Containers: Reopen in Container"
+![Open in Dev Container](/.devcontainer/open_dev_container.jpg)
+
 3. **Wait for Setup**: The environment will automatically set up (takes 2-3 minutes on first run)
 4. **Start Coding**: Everything is ready! The virtual environment is activated automatically.
 
