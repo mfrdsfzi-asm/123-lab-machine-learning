@@ -1,0 +1,44 @@
+[project]
+name = "123lab-machine-learning"
+version = "0.1.0"
+description = "Machine Learning Lab Environment"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.1",
+    "pandas>=2.3.1",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "matplotlib>=3.8.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.25.0",
+    "ipywidgets>=8.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.5.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "jupyter>=1.1.1",
+    "python-dotenv>=1.1.1",
+]
+
