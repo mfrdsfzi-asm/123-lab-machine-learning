@@ -67,13 +67,6 @@ htmlcov/
 ehthumbs.db
 Thumbs.db
 
-# Data files (you may want to adjust this based on your needs)
-*.csv
-*.json
-*.xlsx
-*.pkl
-*.h5
-*.hdf5
 
 # Model files
 *.model
