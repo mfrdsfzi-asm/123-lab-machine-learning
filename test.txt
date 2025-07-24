@@ -1,6 +1,0 @@
-This repo contains course outline for Data Science & Machine Learning.
-Its a four (4) part series
- Part 1: Introduction to DS/ML & Regression Model
- Part 2: Clustering, Classification & NLP
- Part 3: Deep Learning & Computer Vision
- Part 4: MLOps
