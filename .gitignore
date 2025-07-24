@@ -67,11 +67,5 @@ htmlcov/
 ehthumbs.db
 Thumbs.db
 
-
-# Model files
-*.model
-*.pkl
-*.joblib
-
 # Don't ignore uv.lock - this should be committed for reproducible builds
 !uv.lock
